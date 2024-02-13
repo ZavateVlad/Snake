@@ -24,6 +24,7 @@ while is_playing:
     screen.update()
     time.sleep(0.1)
     snake.move()
+
     #Detect collision with food
     if snake.head.distance(food) < 15:
         food.refresh()
@@ -40,13 +41,6 @@ while is_playing:
         if snake.head.distance(segment) < 10:
             is_playing = False
             scoreboard.game_over()
-
-
-
-
-
-
-
 
 
 screen.exitonclick()
