@@ -3,7 +3,6 @@ import random
 MOVE_DISTANCE = 20
 STARTING_POSITION = [(-20, 0), (-40, 0), (-60, 0)]
 
-
 class Snake:
     def __init__(self):
         self.segments = []
